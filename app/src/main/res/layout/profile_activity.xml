@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_landscape_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0" />
+
+        <ImageView
+            android:id="@+id/iv_blurry_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/_100dp"
+            android:layout_height="@dimen/_100dp"
+            android:layout_centerInParent="true"
+            android:elevation="@dimen/_3dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/iv_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/white_placeholder"
+                app:riv_border_color="@color/accent"
+                app:riv_border_width="@dimen/_2dp"
+                app:riv_mutate_background="true"
+                app:riv_oval="true" />
+
+            <android.widget.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:shadowColor="@color/shadow_iconify"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="@string/avatar"
+                android:textColor="@color/accent"
+                android:textSize="@dimen/_25sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_avatar"
+        android:layout_margin="@dimen/_10dp"
+        android:text="User Name"
+        android:textSize="@dimen/_18sp" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_avatar"
+        android:layout_margin="@dimen/_10dp"
+        android:text="Email"
+        android:textSize="@dimen/_18sp" />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_avatar"
+        android:layout_margin="@dimen/_10dp"
+        android:text="Phone"
+        android:textSize="@dimen/_18sp" />
+
+    <Button
+        android:id="@+id/bt_logout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50dp"
+        android:layout_below="@+id/tv_phone"
+        android:layout_margin="@dimen/_10dp"
+        android:background="@color/main_light"
+        android:text="@string/log_out"
+        android:textSize="@dimen/_18sp" />
+
+</LinearLayout>

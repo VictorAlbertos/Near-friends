@@ -1,59 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hacer_app.near_friends" >
+    package="com.hacer_app.near_friends">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
 
-    <permission android:protectionLevel="signature"
-        android:name="com.hacer_app.near_friends.permission.C2D_MESSAGE" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 
-    <uses-permission
-        android:name="com.hacer_app.near_friends.permission.C2D_MESSAGE" />
-
-    <application
+    <application xmlns:tools="http://schemas.android.com/tools"
+        android:name="utilities.NearFriendsApp_"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:name="utilities.NearFriendsApp_"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/api_key_google_play_debug" />
+
         <activity
-            android:name="activities.MainActivity_"
-            android:label="@string/app_name" >
+            android:name="activities.credentials.CredentialsActionBarActivity_"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name="com.parse.PushService" />
-        <receiver android:name="com.parse.ParseBroadcastReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.USER_PRESENT" />
-            </intent-filter>
-        </receiver>
-        <receiver android:name="com.parse.ParsePushBroadcastReceiver"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.parse.push.intent.RECEIVE" />
-                <action android:name="com.parse.push.intent.DELETE" />
-                <action android:name="com.parse.push.intent.OPEN" />
-            </intent-filter>
-        </receiver>
-        <receiver android:name="com.parse.GcmBroadcastReceiver"
-            android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
-                <category android:name="com.hacer_app.near_friends" />
-            </intent-filter>
-        </receiver>
+        <activity
+            android:name="activities.main.ContactsActivity_"
+            android:label="@string/contacts_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activities.main.ProfileActivity_"
+            android:label="@string/profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activities.main.ContactsMapActivity_"
+            android:label="@string/contacts_map"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activities.ActivateGPSMessageActivity_"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="utilities.image_picker.PickerImage$PickerImageActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_sticky_header"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_150dp">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map_fragment"
+            android:name="fragments.customs.MyLocationBlurryMapFragment_"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/v_target_blur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/v_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg" />
+
+        <android.widget.IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:layout_marginRight="@dimen/_10dp"
+            android:shadowColor="@color/shadow_iconify"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="1"
+            android:text="@string/go_to_map"
+            android:textColor="@color/accent"
+            android:textSize="@dimen/_18sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_avatar"
+            android:layout_width="@dimen/_100dp"
+            android:layout_height="@dimen/_100dp"
+            android:layout_centerInParent="true"
+            android:elevation="@dimen/_3dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/iv_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/white_placeholder"
+                app:riv_border_color="@color/accent"
+                app:riv_border_width="@dimen/_2dp"
+                app:riv_mutate_background="true"
+                app:riv_oval="true" />
+
+            <android.widget.IconTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:shadowColor="@color/shadow_iconify"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="@string/avatar"
+                android:textColor="@color/accent"
+                android:textSize="@dimen/_25sp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/ed_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:hint="@string/user_name"
+        android:inputType="textEmailAddress"
+        app:floatingLabel="normal" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10dp"
+        android:layout_marginRight="@dimen/_10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        app:floatingLabel="normal" />
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/bt_sing_in"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50dp"
+        android:layout_margin="@dimen/_10dp"
+        android:elevation="@dimen/_5dp"
+        android:text="@string/sing_in"
+        android:textAllCaps="true"
+        android:textColor="@color/accent"
+        android:textStyle="bold"
+        app:cpb_selectorIdle="@drawable/bt_color_selector"
+        app:cpb_textIdle="@string/sing_in" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10dp">
+
+        <android.widget.IconTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="@color/shadow_iconify"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="1"
+            android:text="@string/swipe_up"
+            android:textColor="@color/accent"
+            android:textSize="@dimen/_18sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_dark">#24454f</color>
+    <color name="main_light">#26617b</color>
+    <color name="main">#1f5065</color>
+    <color name="main_transparent">#cc1f5065</color>
+    <color name="transparent">#8c1f5065</color>
+
+    <color name="accent">#f6c659</color>
+    <color name="white">#ffffff</color>
+    <color name="shadow_iconify">#22000000</color>
+
+
+</resources>

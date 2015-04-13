@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/_50dp"
+    android:layout_height="@dimen/_50dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/iv_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white_placeholder"
+        app:riv_border_color="@color/accent"
+        app:riv_border_width="@dimen/_2dp"
+        app:riv_mutate_background="true"
+        app:riv_oval="true" />
+
+</RelativeLayout>

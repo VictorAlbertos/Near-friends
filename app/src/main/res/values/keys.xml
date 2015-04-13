@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="applicationId">N8OLvfv8lgZ9jHUHV0PJVzI9c5YoFmn8UHkVC2OE</string>
-    <string name="clientKey">cQ99POVfp69VfzyjHL8aGFUn6zTtDegHhyG2BoxJ</string>
+    <string name="applicationId">57LYWzggOq4EvTLHtGRQBeEXV0j6zmY3mfNgF82m</string>
+    <string name="clientKey">b26b9U6xb6L3Us2O8uFJhSDjObRzbDKj8VIQSOtc</string>
+    <string name="api_key_google_play_debug">AIzaSyCgm59nc00oVqyyAAgWRClvEH8tkhAd3TQ</string>
+    <string name="api_key_google_play_release">AIzaSyBUnco_riW4IJRgqJ6ZlmQ6rEk6a08rvto</string>
 </resources>
