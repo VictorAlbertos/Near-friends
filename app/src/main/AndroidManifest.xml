@@ -28,7 +28,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/api_key_google_play_debug" />
+            android:value="@string/api_key_google_play_release" />
 
         <activity
             android:name="activities.credentials.CredentialsActionBarActivity_"

@@ -1,13 +1,19 @@
 package activities.main;
 
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
 import android.location.Location;
+import android.util.DisplayMetrics;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -111,10 +117,29 @@ public class ContactsMapActivity extends BaseActionBarActivity implements OnMapR
                 .title(title).snippet(distanceFormatted);
 
         Marker marker = googleMap.addMarker(markerOptions);
+        View root = View.inflate(this, R.layout.item_contact_map, null);
+        ((TextView)root.findViewById(R.id.tv_initial_name)).setText(contact.getFirstLetterUserName());
+        marker.setIcon(BitmapDescriptorFactory.fromBitmap(createDrawableFromView(root)));
+
         PicassoMarker target = new PicassoMarker(this, marker);
         targets.add(target);
         Picasso.with(this).load(contact.getURLAvatar()).resize(sizeMarker, sizeMarker)
                 .centerCrop().into(target);
+    }
+
+    public Bitmap createDrawableFromView(View view) {
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        view.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+        view.measure(displayMetrics.widthPixels, displayMetrics.heightPixels);
+        view.layout(0, 0, displayMetrics.widthPixels, displayMetrics.heightPixels);
+        view.buildDrawingCache();
+
+        Bitmap bitmap = Bitmap.createBitmap(view.getMeasuredWidth(), view.getMeasuredHeight(), Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bitmap);
+        view.draw(canvas);
+
+        return bitmap;
     }
 
     @UiThread(delay = 15000) protected void rePopulateMarkers() {

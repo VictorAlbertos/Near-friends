@@ -10,10 +10,20 @@
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/white_placeholder"
+        android:src="@drawable/little_white_placeholder"
         app:riv_border_color="@color/accent"
         app:riv_border_width="@dimen/_2dp"
         app:riv_mutate_background="true"
         app:riv_oval="true" />
+
+    <TextView
+        android:id="@+id/tv_initial_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/accent"
+        android:textSize="@dimen/_25sp" />
+
 
 </RelativeLayout>

@@ -25,7 +25,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.12449716"
-     inkscape:cx="-129.71675"
+     inkscape:cx="-1559.4682"
      inkscape:cy="1713.7956"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -63,12 +63,25 @@
          x="-539.88281"
          id="tspan3236"
          sodipodi:role="line" /></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#1f5065;stroke-width:1.48687350999999990;stroke-opacity:1"
+       id="rect3008"
+       width="3251.5762"
+       height="1586.9226"
+       x="-3220.7136"
+       y="-627.14417"
+       inkscape:export-filename="/Users/victor/Desktop/feature_graphic.png"
+       inkscape:export-xdpi="28.330284"
+       inkscape:export-ydpi="28.330284" />
     <path
        style="fill:#1f5065;fill-opacity:1;stroke:#000000;stroke-width:2.0483849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 269.93383,334.26572 C 334.7885,-26.782213 855.60446,69.470374 775.50009,441.21251 545.44165,150.36786 465.76353,437.95456 358.8246,448.15695 c -41.8025,3.988 -97.35829,-66.75236 -88.89077,-113.89123 z"
+       d="m -1714.0221,-48.1208 c 64.8546,-361.0479 585.6706,-264.7953 505.5662,106.9468 -230.0584,-290.8446 -309.7365,-3.2579 -416.6755,6.9445 -41.8025,3.988 -97.3583,-66.7524 -88.8907,-113.8913 z"
        id="path3156"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="scss" />
+       sodipodi:nodetypes="scss"
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
     <path
        sodipodi:type="arc"
        style="opacity:0.98000004;fill:#f6c659;fill-opacity:1;stroke:none"
@@ -78,15 +91,21 @@
        sodipodi:rx="39.327209"
        sodipodi:ry="39.327209"
        d="m 313.93961,-1851.0707 a 39.327209,39.327209 0 1 1 -78.65442,0 39.327209,39.327209 0 1 1 78.65442,0 z"
-       transform="matrix(2.2193764,0,0,2.2193764,3.5284006,4124.4259)" />
+       transform="matrix(2.2193764,0,0,2.2193764,-1980.4277,3742.0394)"
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
     <path
        sodipodi:nodetypes="scss"
        inkscape:connector-curvature="0"
        id="path3166"
-       d="M 149.21052,549.78019 C -171.43564,371.60122 88.143516,-90.061537 413.97487,106.00701 64.340657,229.59263 310.68075,398.03051 285.73564,502.51863 c -9.75115,40.84438 -94.66116,70.52487 -136.52512,47.26156 z"
-       style="fill:#1f5065;fill-opacity:1;stroke:none" />
+       d="m -1834.7454,167.3937 c -320.6463,-178.179 -61.0672,-639.8417 264.7642,-443.7732 -349.6342,123.5857 -103.2941,292.0235 -128.2392,396.5117 -9.7512,40.8443 -94.6612,70.5248 -136.525,47.2615 z"
+       style="fill:#1f5065;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
     <path
-       transform="matrix(0.71805149,-2.100008,2.100008,0.71805149,3649.3261,2028.1161)"
+       transform="matrix(0.71805149,-2.100008,2.100008,0.71805149,1665.3701,1645.7296)"
        d="m 313.93961,-1851.0707 a 39.327209,39.327209 0 1 1 -78.65442,0 39.327209,39.327209 0 1 1 78.65442,0 z"
        sodipodi:ry="39.327209"
        sodipodi:rx="39.327209"
@@ -94,13 +113,19 @@
        sodipodi:cx="274.6124"
        id="path3168"
        style="opacity:0.98000004;fill:#f6c659;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
+       sodipodi:type="arc"
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
     <path
        style="fill:#1f5065;fill-opacity:1;stroke:#000000;stroke-width:2.0483849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 324.3738,733.95725 C 58.622064,986.81645 -304.53474,601.2895 -20.161332,348.82031 -6.5509543,719.40388 227.72778,534.55762 320.00981,589.54898 c 36.07305,21.49616 39.06086,111.39465 4.36399,144.40827 z"
+       d="m -1659.5823,351.5708 c -265.7517,252.8592 -628.9085,-132.6678 -344.5351,-385.137 13.6104,370.5836 247.8891,185.7373 340.1711,240.7287 36.0732,21.4962 39.0609,111.3947 4.364,144.4083 z"
        id="path3172"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="scss" />
+       sodipodi:nodetypes="scss"
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
     <path
        sodipodi:type="arc"
        style="opacity:0.98000004;fill:#f6c659;fill-opacity:1;stroke:none"
@@ -110,15 +135,21 @@
        sodipodi:rx="39.327209"
        sodipodi:ry="39.327209"
        d="m 313.93961,-1851.0707 a 39.327209,39.327209 0 1 1 -78.65442,0 39.327209,39.327209 0 1 1 78.65442,0 z"
-       transform="matrix(-1.7900174,-1.3120477,1.3120477,-1.7900174,2779.902,-2165.468)" />
+       transform="matrix(-1.7900174,-1.3120477,1.3120477,-1.7900174,795.94598,-2547.8545)"
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
     <path
        sodipodi:nodetypes="scss"
        inkscape:connector-curvature="0"
        id="path3178"
-       d="M 550.09388,621.85139 C 711.24791,951.38308 234.29887,1181.673 79.12119,834.50038 436.61923,933.0531 330.85243,654.00448 411.06763,582.55149 c 31.35627,-27.93096 117.98579,-3.72417 139.02625,39.2999 z"
-       style="fill:#1f5065;fill-opacity:1;stroke:none" />
+       d="m -1433.8622,239.4649 c 161.154,329.5317 -315.795,559.8216 -470.9726,212.649 357.4981,98.5527 251.7313,-180.4959 331.9465,-251.9489 31.3562,-27.9309 117.9858,-3.7242 139.0261,39.2999 z"
+       style="fill:#1f5065;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
     <path
-       transform="matrix(-1.7899451,1.3121464,-1.3121464,-1.7899451,-1475.8778,-2592.4485)"
+       transform="matrix(-1.7899451,1.3121464,-1.3121464,-1.7899451,-3459.8339,-2974.835)"
        d="m 313.93961,-1851.0707 a 39.327209,39.327209 0 1 1 -78.65442,0 39.327209,39.327209 0 1 1 78.65442,0 z"
        sodipodi:ry="39.327209"
        sodipodi:rx="39.327209"
@@ -126,13 +157,19 @@
        sodipodi:cx="274.6124"
        id="path3180"
        style="opacity:0.98000004;fill:#f6c659;fill-opacity:1;stroke:none"
-       sodipodi:type="arc" />
+       sodipodi:type="arc"
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
     <path
        style="fill:#1f5065;fill-opacity:1;stroke:none"
-       d="M 515.23131,376.32889 C 879.69924,334.79748 937.02348,861.32173 557.93342,891.31562 770.48483,587.4416 472.12975,593.68323 431.65501,494.17535 c -15.82148,-38.89781 35.9909,-112.42418 83.5763,-117.84646 z"
+       d="m -1468.7247,-6.0576 c 364.4679,-41.5314 421.7921,484.9929 42.7022,514.9867 212.5514,-303.874 -85.8037,-297.6323 -126.2785,-397.1402 -15.8214,-38.8978 35.9909,-112.4242 83.5763,-117.8465 z"
        id="path3184"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="scss" />
+       sodipodi:nodetypes="scss"
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
     <path
        sodipodi:type="arc"
        style="opacity:0.98000004;fill:#f6c659;fill-opacity:1;stroke:none"
@@ -142,17 +179,20 @@
        sodipodi:rx="39.327209"
        sodipodi:ry="39.327209"
        d="m 313.93961,-1851.0707 a 39.327209,39.327209 0 1 1 -78.65442,0 39.327209,39.327209 0 1 1 78.65442,0 z"
-       transform="matrix(0.63717648,2.1259438,-2.1259438,0.63717648,-3191.8529,1209.2825)" />
+       transform="matrix(0.63717648,2.1259438,-2.1259438,0.63717648,-5175.8089,826.896)"
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
     <rect
        style="opacity:0.3125;fill:none;stroke:none"
        id="rect4267"
        width="1243"
        height="1243"
-       x="-232.46953"
-       y="-72.796341"
+       x="-2216.4255"
+       y="-455.1828"
        ry="0"
-       inkscape:export-filename="/Users/victor/Desktop/ic_launcher.png"
-       inkscape:export-xdpi="10.426387"
-       inkscape:export-ydpi="10.426387" />
+       inkscape:export-filename="/Users/victor/Desktop/hi_res_icon.png"
+       inkscape:export-xdpi="37.071602"
+       inkscape:export-ydpi="37.071602" />
   </g>
 </svg>
